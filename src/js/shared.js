@@ -13,13 +13,13 @@ window.addEventListener('load',function insertNavbar(){
 			<div class="navbar-collapse collapse" id="navbar9">
 				<ul class="navbar-nav mx-auto nav-tabs nav-justified">
 					<li class="nav-item active">
-						<a class="nav-link" href="home.html" style="color: aliceblue!important;">Home</a>
+						<a class="nav-link" href="index.html" style="color: aliceblue!important;">Home</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#" style="color: aliceblue!important;">Skills</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="contact.html" style="color: aliceblue!important;">Contact</a>
+						<a class="nav-link" href="./src/html/contact.html" style="color: aliceblue!important;">Contact</a>
 					</li>
 				</ul>
 			</div>
