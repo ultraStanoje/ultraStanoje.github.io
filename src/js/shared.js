@@ -19,7 +19,7 @@ window.addEventListener('load',function insertNavbar(){
 						<a class="nav-link" href="#" style="color: aliceblue!important;">Skills</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="./src/html/contact.html" style="color: aliceblue!important;">Contact</a>
+						<a class="nav-link" href="src/html/contact.html" style="color: aliceblue!important;">Contact</a>
 					</li>
 				</ul>
 			</div>
