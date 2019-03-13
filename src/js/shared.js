@@ -3,7 +3,7 @@ window.addEventListener('load',function insertNavbar(){
  background.innerHTML =("afterBegin",`
 <nav class="navbar navbar-expand-sm transparent navbar-light">
 			<div class="d-flex w-100 justify-content-between">
-				<a href="home.html" class="navbar-brand mr-0"><span class="letter" data-letter="S">SS</span></a>
+				<a href="https://ultrastanoje.github.io/" class="navbar-brand mr-0"><span class="letter" data-letter="S">SS</span></a>
 				<button class="navbar-toggler" onclick="getTextHeight()"
 					style="background-color: white; line-height: 1.0!important; margin: 16px;" type="button"
 					data-toggle="collapse" data-target="#navbar9">
