@@ -1,0 +1,272 @@
+/*Global styling*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*Section 1*/
+
+.innerWrapper {
+  max-width: 920px;
+  margin: 0 auto;
+  padding-bottom: 12.7%;
+}
+
+.s1-appearance {
+  text-align: center;
+  text-shadow: 1px 0 2px #595859;
+  max-width: 1200px;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  height: 50%;
+  border-radius: 3px;
+}
+
+.s1-appearance h1 {
+  font-size: 5.5rem;
+  margin: 0;
+  padding-top: 14%;
+  font-family: 'Abril Fatface', serif;
+  color: #fff;
+}
+
+.s1-appearance h3 {
+  padding-bottom: 20px;
+  font-family: 'Quicksand', sans-serif;
+  font-style: italic;
+  color: #fff;
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.s1-background {
+  background: url(../img/stars1.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+
+@media (min-width: 576px) {
+  .s1-appearance {
+    position: absolute;
+  }
+}
+
+/*Section 2*/
+
+.s2-appearance {
+  max-width: 1200px;
+  box-sizing: border-box;
+  width: 90%;
+  height: 90%;
+  padding: 3%;
+  position: static;
+  margin: auto;
+  border-radius: 3px;
+  top: 200%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.s2-appearance-box {
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  color: black;
+}
+
+.s2-appearance img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  width: 40%;
+  border-radius: 50%;
+  float: left;
+}
+
+.s2-appearance-box .s2-appearance img {
+  display: block
+}
+
+.s2-appearance h1 {
+  font-size: 5.5rem;
+  margin: 0;
+  padding-bottom: 5%;
+  font-family: 'Abril Fatface', serif;
+}
+
+.s2-appearance h4 {
+  font-size: 27px;
+  font-weight: 100;
+  font-family: 'Source Code Pro', monospace;
+  text-align: center;
+  padding: 4%;
+  width: 100%;
+  padding-left: 50%;
+}
+
+.s2-background {
+  background-color: white;
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+@media (max-width:1200px) {
+  .s2-appearance-box {
+    float: none;
+    width: 66%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .s1-appearance h1 {
+    font-size: 4.5rem;
+  }
+  .s2-appearance img {
+    float: none;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .s2-appearance h1 {
+    font-size: 3.5rem;
+  }
+  .s2-appearance h4 {
+    font-size: 20px;
+    padding-left: 0%;
+    padding-top: 5%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 55vh;
+  }
+  .aboutMe-text {
+    padding-top: 10%;
+    padding-bottom: 5%;
+  }
+}
+
+/*Go to top button*/
+
+#myBtn {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Fixed/sticky position */
+  bottom: 20px;
+  /* Place the button at the bottom of the page */
+  right: 30px;
+  /* Place the button 30px from the right */
+  z-index: 99;
+  /* Make sure it does not overlap */
+  border: none;
+  /* Remove borders */
+  outline: none;
+  /* Remove outline */
+  background-color: #5bc0de;
+  /* Set a background color */
+  color: white;
+  /* Text color */
+  cursor: pointer;
+  /* Add a mouse pointer on hover */
+  padding: 15px;
+  /* Some padding */
+  border-radius: 50%;
+  /* Rounded corners */
+  font-size: 18px;
+  /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555;
+  /* Add a dark-grey background on hover */
+}
+
+/*Section 3*/
+
+.s3-background {
+  font-family: 'Quicksand', sans-serif;
+  font-style: italic;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  margin: 0 auto;
+  padding-left: 50px;
+  background: url("http://gaiaearthoracle.com/wp-content/uploads/2015/03/58.jpg?w=640");
+  color: black;
+  text-align: left;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.resume-education {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  color: white;
+}
+
+.resume-education h3 {
+  margin-bottom: 50px;
+}
+
+.timeline {
+  list-style-type: none;
+  position: relative;
+}
+
+.timeline::before {
+  content: '';
+  background: white;
+  display: inline-block;
+  position: absolute;
+  left: 29px;
+  width: 2px;
+  height: 100%;
+  z-index: 1;
+}
+
+.timeline li {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.timeline li h4 {
+  background-color: #000;
+  padding: 5px 0 5px 20px;
+  column-rule-color: #fff;
+  font-size: 15px;
+}
+
+.timeline li h4 span {
+  font-weight: bold;
+  color: #ccc;
+}
+
+.timeline li::before {
+  content: '';
+  background: #fff;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid #000;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  z-index: 1;
+}
+
+b a {
+  color: white;
+}

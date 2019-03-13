@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Home</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="../css/home.css">
+	<link rel="stylesheet" type="text/css" href="../css/shared.css">
+</head>
+
+<body onresize="getTextHeight()">
+	<div class="s1-background" id="introduction" onload="getTextHeight();">
+
+		<div id="navbar"></div>
+
+		<!--Section 1 => Introduction-->
+		<section id="section-1" class="s1-appearance  col-xs-* col-sm-* col-md-* col-lg-*">
+			<div class="innerWrapper">
+				<h1>Hello!</h1>
+				<h3>My name is<br><strong> Stefan Stanojlovic</strong>.</h3>
+				<input id="information-btn" type="submit" class="btn btn-info btn-rounded"
+					onclick="location.href='#about';" value="Info">
+			</div>
+		</section>
+	</div>
+
+	<!--Section 2 => About me-->
+	<div class="s2-background container-fluid col-xs-* col-sm-* col-md-* col-lg-*" id="about">
+		<section id="section-2" class="s2-appearance">
+			<div class="s2-appearance-box" id="about-text">
+				<h1 id="about-text-h1">About me</h1>
+				<div>
+					<img src="../img/Stefan_Stanojlovic.JPG" alt="Stefan Stanojlovic" />
+				</div>
+				<div class="aboutMe-text" id="aboutMe-text">
+					<h4>As I said, my name is Stefan Stanojlovic. I'm from Kraljevo, Serbia and I am currently available
+						for
+						any
+						kind of a part-time/full-time internship. I'm studying Electrical and Computer Engineering at
+						Faculty of
+						Technical Sciences in Cacak.</h4>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<!--Section 3 => Education-->
+	<div class="s3-background container-fluid col-xs-* col-sm-* col-md-* col-lg-*" id="education">
+		<div class="resume-education" id="resume-education">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6" style="
+					margin: 0 auto;">
+						<h3 class="text-center">My Education</h3>
+						<ul class="timeline">
+							<li>
+								<h4><span>2018- </span> Online education</h4>
+								<b>Udemy and other course sites</b>
+								<p>Lately I've devoted my free time to online education. Mostly I watch something about
+									programming and computer sciences. </p>
+							</li>
+							<li>
+								<h4><span>2015- </span> Faculty</h4>
+								<b><a href="http://www.ftn.kg.ac.rs/" target="_blank">Faculty of Technical Sciences
+										Cacak</a></b>
+								<p>I enroled in faculty 2015 in Undergraduate academic studies, module Electrical and
+									Computer Engineering.</p>
+							</li>
+							<li>
+								<h4><span>2010-2014</span> High School</h4>
+								<b><a href="http://estsnikolatesla.edu.rs/" target="_blank">ESTS "Nikola Tesla",
+										Kraljevo</a></b>
+								<p>I graduated high school in 2014, my module was Computer Technician. During the high
+									school I gained practical and theoretical knowledge about Computer science and
+									programming for further education in that area. </p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<!--Go to top button-->
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
+	<script type="text/javascript" src="../js/shared.js"></script>
+	<script type="text/javascript" src="../js/home.js"></script>
+
+
+	</div>
+
+</body>
+
+</html>
