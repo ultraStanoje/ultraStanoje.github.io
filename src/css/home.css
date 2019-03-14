@@ -124,7 +124,7 @@ html {
 @media (max-width:1200px) {
   .s2-appearance-box {
     float: none;
-    width: 95%;
+    width: 85%;
     display: block;
     margin-left: auto;
     margin-right: auto;
