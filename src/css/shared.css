@@ -89,3 +89,6 @@
 .navbar {
     display: 0!important;
 }
+.dropdown-item{
+    padding: .10rem 1.5rem !important;
+}
