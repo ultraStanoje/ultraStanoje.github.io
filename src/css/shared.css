@@ -16,7 +16,7 @@
 
 @media (max-width: 614px), (max-height:614px) {
     .background {
-        height: auto;
+        height: 100%;
     }
 }
 
