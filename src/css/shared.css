@@ -27,7 +27,7 @@
 }
 
 .navbar-light .navbar-toggler-icon {
-    background-image: url(https://img.icons8.com/ios/1600/hamburger.png);
+    background-image: url(https://img.icons8.com/ios/1600/hamburger.png)!important;
     background-color: transparent;
 }
 
