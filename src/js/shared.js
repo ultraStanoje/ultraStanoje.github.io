@@ -16,7 +16,7 @@ window.addEventListener('load',function insertNavbar(){
 						<a class="nav-link" href="https://ultrastanoje.github.io/" style="color: aliceblue!important;">Home</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="https://ultrastanoje.github.io/src/html/skills.html" style="color: aliceblue!important;">Skills/Projects</a>
+						<a class="nav-link" href="https://ultrastanoje.github.io/src/html/skills.html" style="color: aliceblue!important;">Skills</a>
 					</li>
 					<li class="nav-item dropdown">
  							<a class="nav-link dropdown-toggle" style="color: white;background-color:transparent" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Download CV</a>
