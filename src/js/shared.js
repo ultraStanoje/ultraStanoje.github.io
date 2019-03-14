@@ -16,13 +16,13 @@ window.addEventListener('load',function insertNavbar(){
 						<a class="nav-link" href="https://ultrastanoje.github.io/" style="color: aliceblue!important;">Home</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="https://ultrastanoje.github.io/src/html/skills.html" style="color: aliceblue!important;">Skills</a>
+						<a class="nav-link" href="https://ultrastanoje.github.io/src/html/skills.html" style="color: aliceblue!important;">Skills/Projects</a>
 					</li>
 					<li class="nav-item dropdown">
  							<a class="nav-link dropdown-toggle" style="color: white;background-color:transparent" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Download CV</a>
 							<div class="dropdown-menu" style="background-color: transparent;">
-							<a class="dropdown-item" style="color: #00B4F1;" href="src/docs/CV-Stefan-Stanojlovic.pdf" target="_blank">PDF</a>
-							<a class="dropdown-item" style="color: #00B4F1;" href="src/docs/CV-Stefan-Stanojlovic.docx" target="_blank">Word</a>
+							<a class="dropdown-item" style="color: #00B4F1; text-align: center;" href="src/docs/CV-Stefan-Stanojlovic.pdf" target="_blank">PDF</a>
+							<a class="dropdown-item" style="color: #00B4F1; text-align: center;" href="src/docs/CV-Stefan-Stanojlovic.docx" target="_blank">Word</a>
 							</div>
 					</li>
 					<li class="nav-item">
