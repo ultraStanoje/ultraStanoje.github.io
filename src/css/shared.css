@@ -14,9 +14,10 @@
     height: 100vh;
 }
 
+
 @media (max-width: 614px), (max-height:614px) {
     .background {
-        height: 100%;
+        height: fit-content;
     }
 }
 
