@@ -251,3 +251,13 @@ body {
   .pb-5{
     padding-top: 5%;
   }
+
+  h1{
+    color:white;
+    font-family: serif;
+    padding: 2%;
+    width: 30%;
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 30%;
+  }
