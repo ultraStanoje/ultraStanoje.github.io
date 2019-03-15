@@ -224,14 +224,14 @@ body {
   }
   .wrapper .row:not(:first-child):not(:last-child) > :nth-child(3){
     background-color: #112a3b;
-    background-image: url("https://mdbootstrap.com/img/Marketing/tutorials/jquery/html.jpg");
+    background-image: url("https://cdn.macworld.co.uk/cmsdata/features/3638150/setup_learn_sql_mac_thumb800.jpg");
     background-position: center center;
     background-size: cover;
   }
 
   .wrapper .row:last-child > :nth-child(1){
     background-color: #5d92cb;
-    background-image: url("https://mdbootstrap.com/img/Marketing/general/vue-presentation-wide.png");
+    background-image: url("https://cdn.sparkfun.com/assets/9/1/e/4/8/515b4656ce395f8a38000000.png");
     background-position: center center;
     background-size: cover;
   }
@@ -243,7 +243,7 @@ body {
   }
   .wrapper .row:last-child > :nth-child(3){
     background-color: #112a3b;
-    background-image: url("https://mdbootstrap.com/img/Marketing/tutorials/jquery/html.jpg");
+    background-image: url("data:image/png;base64,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");
     background-position: center center;
     background-size: cover;
   }
