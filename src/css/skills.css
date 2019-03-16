@@ -89,10 +89,10 @@ body {
     padding: 1rem 0;
   }
   .wrapper .row .item-wrapper .description p {
-    width: calc(100% * 2/3);
+    /*width: calc(100% * 2/3);*/
     margin-top: 0;
     margin-bottom: 0;
-    padding: 5rem 0;
+    padding: 1rem 0;
     opacity: 0;
     position: absolute;
     top: 0;
