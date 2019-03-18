@@ -59,6 +59,13 @@ html {
   }
 }
 
+
+@media (min-width: 1370px) {
+  .scroll-down{
+    margin-top:10%
+  }
+}
+
 /*Section 2*/
 
 .s2-appearance {
@@ -160,6 +167,9 @@ html {
   .aboutMe-text {
     padding-top: 10%;
     padding-bottom: 5%;
+  }
+  .scroll-down{
+    margin-top: 10%;
   }
 }
 
