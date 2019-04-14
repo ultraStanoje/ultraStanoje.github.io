@@ -32,6 +32,9 @@ function getTextHeight() {
 
   if(myHeight<710 && myWidth<1200){
     document.getElementById("education").style.marginTop = "45%";
+    if(myHeight<455){
+      document.getElementById("education").style.marginTop = "60%";
+    }
   }else{
     document.getElementById("education").style.marginTop = "0%";
   }
